@@ -1,20 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap')
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*{
+
+}
+
+html,body {
+    overflow-x: hidden;
 }
 
 body {
     font-family: "Open Sans", sans-serif; 
-}
-
-* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
+
+html,body {
+    overflow-x: hidden;
+}
+
 
 /* -----------Navigation---------*/
 
@@ -26,7 +31,7 @@ body {
 
 .navbar {
 background-color: rgba(0, 0, 0, 0.5);
-padding: 0 10px;
+
 }
 
 .navbar .navbar-brand {
@@ -61,11 +66,9 @@ padding: 0 10px;
 
 
 
-
 /* -----------Hero image---------*/
 .container-hero {
     height: 100vh;
-    width: 100wh;
     background: url("../images/hero1.jpg") no-repeat fixed; 
     background-position: right;
     background-size: cover;
@@ -73,7 +76,7 @@ padding: 0 10px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 0;
+    padding: 0px;
 }
 
 .hero-overlay {
@@ -86,6 +89,7 @@ padding: 0 10px;
     right: 0;
     bottom: 0;
 }
+
 
 .vert-line {
     border-left: solid 5px;
@@ -105,7 +109,7 @@ padding: 0 10px;
     font-family: "Montserrat", sans-serif;
     color: #fafafa;
     font-weight: 600;
-    font-size: 400%;
+    font-size: 4.3rem;
 }
 
 .main-text {
@@ -114,16 +118,86 @@ padding: 0 10px;
     color: #fafafa;
     
     font-weight: 500;
-    font-size: 150%;
-}
-
-.btn {
-    margin-left: 15px;
+    font-size: 25px;
 }
 
 
 
 
+/********Buttons*********/
 
+.hero-buttons {
+    margin-left: 25px;
+    margin-top: 25px;
     
- 
+}
+
+.btn--mus {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #FFDB58;
+    border-color:  #FFDB58;
+    color: black;
+    width: 200px;
+    margin-right: 10px;
+    
+}
+
+.btn--white {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #fafafa;
+    border-color:  #fafafa;
+    color: black;
+    width: 200px;
+    
+}
+
+@media screen and (max-width:800px) {
+    .main-heading {
+        font-size: 3.8rem;
+    }
+    .container-hero {
+        height: 100vh;
+        background: url("../images/hero1.jpg") no-repeat fixed; 
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
+    }
+
+}
+
+@media screen and (max-width:460px) {
+    .main-heading {
+        font-size: 2rem;
+    }
+
+    .main-text {
+      font-size: 1.5rem;  
+    }
+
+    .hero-buttons {
+        margin-left: 25px;
+    }
+    .btn--mus {
+        margin-bottom: 15px;
+    }
+
+    .container-hero {
+    height: 100vh;
+    background: url("../images/hero1.jpg") no-repeat fixed; 
+    background-position: right;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    
+}
