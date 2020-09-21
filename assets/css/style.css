@@ -27,6 +27,22 @@ html,body {
     padding-bottom: 70px;
 }
 
+.section-header {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;  
+    margin-bottom: 20px;
+}
+
+.section-hr {
+    width: 20%;
+    background-color: #FFDB58;
+    height: .3rem;
+    border: 0
+}
+
 
 /* -----------Navigation---------*/
 
@@ -362,31 +378,109 @@ background-color: rgba(0, 0, 0, 0.9);
     margin: 0 auto;
 }
 
-.about-header {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 2.5rem;
-    text-align: center;
-    text-transform: uppercase;  
-    margin-bottom: 20px;
-}
-
 .about-content p {
     margin-top: 25px;
     text-align: justify;
     line-height: 1.7;
 }
 
-.about-content hr {
-    width: 20%;
-    background-color: #FFDB58;
-    height: .3rem;
-    border: 0
+
+
+/*********My Projects****************/
+.section-wrapper-projects{
+    background-color: #191919;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#projects .section-header {
+    color: #fafafa;
+}
+
+.content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.content .content-overlay {
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s
+}
+
+.content:hover .content-overlay {
+    opacity: 1;
+}
+
+.content-image {
+    width: 100%
+}
+
+img {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.content-details {
+    position: absolute;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+
+
+.content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.content-details h3 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;  
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    color: #fafafa;
+}
+
+.content-details p {
+    color: #fafafa;
+    font-size: 1rem;
+    text-align:justify;
 
 }
 
-/*********My Projects****************/
+.fadeIn-bottom {
+    top: 80%
+}
 
-.jumbotron {
-    word-wrap: break-word;
+.content-details hr {
+    width: 20%;
+    background-color: #FFDB58;
+    height: .1rem;
+    border: 0
 }
