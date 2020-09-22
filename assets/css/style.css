@@ -380,7 +380,7 @@ background-color: rgba(0, 0, 0, 0.9);
 
 .about-content p {
     margin-top: 25px;
-    text-align: justify;
+    text-align: center;
     line-height: 1.7;
 }
 
@@ -389,12 +389,23 @@ background-color: rgba(0, 0, 0, 0.9);
 /*********My Projects****************/
 .section-wrapper-projects{
     background-color: #191919;
-    padding-top: 70px;
-    padding-bottom: 70px;
 }
 
 #projects .section-header {
     color: #fafafa;
+}
+
+#projects .row {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.project-block {
+    padding:0;
 }
 
 .content {
@@ -417,7 +428,7 @@ background-color: rgba(0, 0, 0, 0.9);
     opacity: 0;
     -webkit-transition: all 0.4s ease-in-out 0s;
     -moz-transition: all 0.4s ease-in-out 0s;
-    transition: all 0.4s ease-in-out 0s
+    transition: all 0.4s ease-in-out 0s;
 }
 
 .content:hover .content-overlay {
@@ -425,10 +436,12 @@ background-color: rgba(0, 0, 0, 0.9);
 }
 
 .content-image {
-    width: 100%
+    width: 100%;
+    height: 270px;
+    vertical-align: middle;
 }
 
-img {
+.content-image img {
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
 }
 
@@ -445,7 +458,7 @@ img {
     transform: translate(-50%, -50%);
     -webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s
+    transition: all 0.3s ease-in-out 0s;
 }
 
 
@@ -459,7 +472,7 @@ img {
 .content-details h3 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     text-transform: uppercase;  
     margin-top: 0.6rem;
@@ -469,18 +482,26 @@ img {
 
 .content-details p {
     color: #fafafa;
-    font-size: 1rem;
-    text-align:justify;
+    font-size: 0.8rem;
+    text-align:center;
+}
 
+.content-details span {
+    color: #FFDB58;
+    font-weight: 600;
 }
 
 .fadeIn-bottom {
-    top: 80%
+    top: 80%;
 }
 
 .content-details hr {
     width: 20%;
     background-color: #FFDB58;
     height: .1rem;
-    border: 0
+    border: 0;
+}
+
+.button-projects {
+    margin-top: 40px;
 }
