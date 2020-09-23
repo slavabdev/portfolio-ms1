@@ -9,14 +9,14 @@
     <script src="https://kit.fontawesome.com/a519d5e5c0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#navigation" data-offset="10">
 
 <!--Navigation-->
 
     <header>
         <div class="container-fluid nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-                <a class="navbar-brand" href="#home">Slava <span class="brand-logo"> Balykov<span></a>
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="navigation">
+                <a class="navbar-brand" href="#home">Slava <span class="brand-logo">Balykov</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -24,7 +24,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto text-center">
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">About Me </a>
+                            <a class="nav-link " href="#about">About Me</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#projects">My Projects</a>
@@ -75,6 +75,8 @@
         </a>               
 </section>
 
+<!---About section-->
+
 <div class="section-wrapper">
     <section id="about">
     <div class="container about-container">
@@ -97,12 +99,14 @@
     </section>
 </div>
 
+<!---Projects section-->
+
 <div class="section-wrapper-projects section-wrapper">
     <section id="projects">
         <div class="projects-container">
             <h2 class="section-header">My projects</h2>
             <hr class="section-hr">
-            <div class="row">
+            <div class="row no-gutters">
                 <div class="col-12 col-md-6 col-lg-4 project-block">         
                     <div class="content"> 
                      <div class="content-overlay"></div> <img class="content-image" src="assets/images/csr.jpg">
@@ -140,7 +144,6 @@
                      </div>
                   </div>
                 </div>
-
             </div>
         <div class="button-projects text-center">
            <a href="#" target="_blank">
@@ -151,49 +154,57 @@
     </section>
 </div>
 
+<!---Skills section-->
+
 <div class="section-wrapper">
     <section id="skills">
-        <div class="skills-container">
+        <div class="skills-container container-fluid">
             <h2 class="section-header">My skills</h2>
             <hr class="section-hr">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <h3 class="skill-heading"><i class="fa fa-home" aria-hidden="true"></i>Digital PR</h3>
-                    <p>Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
+            <div class="row no-gutters">
+                <div class="col-12 col-md-6 col-lg-4 px-4">
+                    <h3 class="skill-heading"><i class="fas fa-chess hvr-grow" aria-hidden="true"></i>Strategic <br> communications</h3>
+                    <p class="skill-text">Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <h3 class="skill-heading"><i class="fa fa-home" aria-hidden="true"></i>Digital PR</h3>
-                    <p>Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
+                <div class="col-12 col-md-6 col-lg-4 px-4">
+                    <h3 class="skill-heading"><i class="fas fa-chart-line hvr-grow" aria-hidden="true"></i>Research <br> and analysis</h3>
+                    <p class="skill-text">Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <h3 class="skill-heading"><i class="fa fa-home" aria-hidden="true"></i>Digital PR</h3>
-                    <p>Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
+                <div class="col-12 col-md-6 col-lg-4 px-4">
+                    <h3 class="skill-heading"><i class="fas fa-tasks hvr-grow" aria-hidden="true"></i>Project <br> management</h3>
+                    <p class="skill-text">Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <h3 class="skill-heading"><i class="fa fa-home" aria-hidden="true"></i>Digital PR</h3>
-                    <p>Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
+                <div class="col-12 col-md-6 col-lg-4 px-4">
+                    <h3 class="skill-heading"><i class="fas fa-user-ninja hvr-grow" aria-hidden="true"></i>Crisis <br> Communications</h3>
+                    <p class="skill-text">Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <h3 class="skill-heading"><i class="fa fa-home" aria-hidden="true"></i>Digital PR</h3>
-                    <p>Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
+                <div class="col-12 col-md-6 col-lg-4 px-4">
+                    <h3 class="skill-heading"><i class="fas fa-thumbs-up hvr-grow" aria-hidden="true"></i>Digital <br> marketing </h3>
+                    <p class="skill-text">Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <h3 class="skill-heading"><i class="fa fa-home" aria-hidden="true"></i>Digital PR</h3>
-                    <p>Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
+                <div class="col-12 col-md-6 col-lg-4 px-4">
+                    <h3 class="skill-heading"><i class="fas fa-paragraph hvr-grow" aria-hidden="true"></i>Content <br>development</h3>
+                    <p class="skill-text">Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
                 </div>
-            
-
             </div>
-        
+            <div class="button-skills text-center">
+            <a href="#" target="_blank">
+                <button type="button" class="btn btn--mus hvr-underline-from-center-mus">Hire Me</button>
+            </a> 
         </div>
-    
+        </div>
     </section>
 </div>
+
+
     
 
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+
+    
 </body>
 </html>
