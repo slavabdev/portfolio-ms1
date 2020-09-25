@@ -87,13 +87,11 @@ background-color: rgba(0, 0, 0, 0.9);
     font-weight: 700;
 }
 
-
 .navbar-toggler {
     border: none;
     font-size: 25px;
     padding: 0;
 }
-
 
 
 /* -----------Hero Container---------*/
@@ -497,8 +495,63 @@ background-color: rgba(0, 0, 0, 0.9);
     margin-top: 40px;
 }
 
+/*********Contacts***********************/
+.contacts-wrapper {
+    background-color: #191919;
+}
 
+#contacts .section-header {
+    color: #fafafa;
+}
 
+.contact-details {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+}
+
+.contact-details i {
+    color: #FFDB58;
+    margin-right: 10px;
+}
+
+.contact-details .details {
+    margin-bottom: 2rem;
+    }
+
+.contact-details .details a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #fafafa;
+    margin-bottom: 2rem;
+    }
+
+.contact-details .details a:hover {
+    color: #FFDB58;
+    font-weight: 500;
+}
+
+.form-subh {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;  
+    margin-bottom: 1rem;
+    color: #fafafa;
+}
+
+.form-subh span {
+  color: #FFDB58; 
+  font-weight: 600; 
+}
+
+.form-group label {
+    font-weight: 500;
+    text-transform: uppercase;  
+    margin-bottom: .5rem;
+    color:  #FFDB58;
+
+}
 
 /*********Media queries*********/
 
@@ -523,6 +576,10 @@ background-color: rgba(0, 0, 0, 0.9);
         padding: 0px;
     }
 
+    .contact-details {
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+    
 }
 
 @media screen and (max-width:460px) {
@@ -558,6 +615,19 @@ background-color: rgba(0, 0, 0, 0.9);
     text-align: center;
     }
 
+   .contact-details {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-top: 0;
+    text-align: center; 
+    }
+
+    form {
+        max-width: 90%;
+        margin: 0 auto;
+        
+    }
+    
 }
 
 
