@@ -569,7 +569,7 @@ footer .section-hr {
 
 /*********Media queries*********/
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:959px)  {
    
    .header {
        margin-right: 1rem;
@@ -583,6 +583,9 @@ footer .section-hr {
         background: url("../images/hero1.jpg") no-repeat fixed; 
         background-position: center;
         background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         position: relative;
         display: flex;
         justify-content: flex-start;
@@ -633,6 +636,9 @@ footer .section-hr {
     background: url("../images/hero1.jpg") no-repeat fixed; 
     background-position: right;
     background-size: cover;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
     position: relative;
     display: flex;
     justify-content: flex-start;
