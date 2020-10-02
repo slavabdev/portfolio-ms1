@@ -239,7 +239,7 @@ background-color: rgba(0, 0, 0, 0.9);
   right: 0;
 }
 
-/*****Scroll arrows*************/
+/*****Scroll arrow*************/
 
 .scroll-down {
     position: absolute;
@@ -328,7 +328,7 @@ background-color: rgba(0, 0, 0, 0.9);
 
 .content-image {
     width: 100%;
-    height: 270px;
+    height: auto;   
 }
 
 .content .content-overlay {
@@ -364,12 +364,12 @@ background-color: rgba(0, 0, 0, 0.9);
     top: 50%;
     left: 50%;
     opacity: 0;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -moz-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        -moz-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
 }
 
 .content:hover .content-details {
@@ -469,6 +469,7 @@ background-color: rgba(0, 0, 0, 0.9);
     color: #fafafa;
 }
 
+
 .contact-details {
     margin-top: 2.5rem;
     padding-top: 2rem;
@@ -476,16 +477,19 @@ background-color: rgba(0, 0, 0, 0.9);
 
 .contact-details i {
     color: #FFDB58;
-    margin-right: 10px;
+    margin-right: .8rem;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .contact-details .details {
-    margin-bottom: 2rem;
+     margin-bottom: 2rem;
     }
 
 .contact-details .details a {
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
+    font-size: 1.5rem;
     color: #fafafa;
     margin-bottom: 2rem;
     }
@@ -501,7 +505,7 @@ background-color: rgba(0, 0, 0, 0.9);
     font-size: 1.5rem;
     text-align: center;
     text-transform: uppercase;  
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     color: #fafafa;
 }
 
@@ -569,28 +573,46 @@ footer .section-hr {
 
 /*********Media queries*********/
 
-@media screen and (max-width:959px)  {
-   
-   .header {
-       margin-right: 1rem;
-   }
-   
+/*For small devices (such as mobile phones )*/ 
+@media screen and (max-width:600px) {
     .main-heading {
-        font-size: 3.8rem;
+        font-size: 2rem;
+        margin-right: 1rem; 
     }
+
+    .main-text {
+      font-size: 1.5rem; 
+      margin-right: 1rem; 
+    }
+
+    .hero-buttons {
+        margin-left: 25px;
+    }
+    .hero-buttons .btn--mus {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .hero-buttons .btn--white {
+        display: block;
+    }
+
     .container-hero {
-        height: 100vh;
-        background: url("../images/hero1.jpg") no-repeat fixed; 
-        background-position: center;
-        background-size: cover;
-        -webkit-background-size: cover;
+    height: 100vh;
+    background: url("../images/hero1.jpg") no-repeat fixed; 
+    background-position: right;
+    background-size: cover;
+    -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        position: relative;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 0px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    }
+
+    .content-details h3 {
+        font-size: 1.5rem;
     }
 
     .content-image {
@@ -598,26 +620,53 @@ footer .section-hr {
         height: auto;
     }
 
-    .contact-details {
-        margin-top: 4rem;
+    .skill-heading {
+        font-size: 1.3rem;
+    }
+
+    .skill-heading i {
+        font-size: 2.2rem;
+}
+
+    .skill-text {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+   .contact-details {
         margin-bottom: 2rem;
-        padding-top: 0;
-        text-align: left; 
+        margin-top: 0;
+        padding-top:0;
+        text-align: center;
+    }
+
+    .contact-details .details {
+        margin-bottom: 1.4rem;
+    }
+
+    .contact-details .details a {
+        font-size: 1.3rem;
+    }
+
+    .contact-details .details i {
+        font-size: 1.3rem;
     }
 
     form {
-        width: 100%;
-        margin: 0 auto;       
+        max-width: 90%;
+        margin: 0 auto;
     }
 
     .form-button {
         text-align: center;
     }
+    
 }
 
-@media screen and (max-width:460px) {
+/*For small devices (large phones, portrait tablets)*/
+@media screen and (min-width:601px) {
     .main-heading {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .main-text {
@@ -625,12 +674,13 @@ footer .section-hr {
     }
 
     .hero-buttons {
-        margin-left: 25px;
-    }
-    .btn--mus {
-        margin-bottom: 15px;
+        margin-left: 25px;  
     }
 
+    .btn--mus {
+        margin-bottom: 0;
+    }
+    
     .container-hero {
     height: 100vh;
     background: url("../images/hero1.jpg") no-repeat fixed; 
@@ -660,14 +710,12 @@ footer .section-hr {
     text-align: center;
     }
 
-   .contact-details {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    padding-top: 0;
-    margin-left: 64px;
-    text-align: left;
+    .contact-details {
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+        padding-top:0;
+        text-align: center;
     }
-
 
     form {
         max-width: 90%;
@@ -678,5 +726,53 @@ footer .section-hr {
         text-align: center;
     }
     
+}
+/* For medium devices (landscape phones and tablets) */
+@media screen and (min-width:768px)  {
+   .header {
+       margin-right: 1rem;
+   }
+    .main-heading {
+        font-size: 3.8rem;
+    }
+    .container-hero {
+        height: 100vh;
+        background: url("../images/hero1.jpg") no-repeat fixed; 
+        background-position: center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
+    }
+    .content-image {
+        width: 100%;
+        height: auto;
+    }
+    .contact-details {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        padding-top: 0;
+        text-align: center; 
+    }
+
+    form {
+        width: 100%;
+        margin: 0 auto;       
+    }
+
+    .form-button {
+        text-align: center;
+    }
+}
+/* For large devices (laptops, large landscape tablets) */
+@media screen and (min-width:992px) {
+    .contact-details {
+        text-align: left;
+    }
 }
 
