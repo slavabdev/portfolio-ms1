@@ -21,9 +21,11 @@ https://www.w3schools.com/
 
 https://developer.mozilla.org/ 
 
+browser icon
+https://www.flaticon.com/
 
 Bugs:
 Safari
 hero image doesn't display properly on iphone10
 no smooth scrolling
-projects images doesn't display properly
+
