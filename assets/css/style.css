@@ -6,9 +6,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
     position: relative;
-    
 }
 
 html {
@@ -17,7 +15,15 @@ html {
 
 html,body {
     overflow-x: hidden;
+    height: 100%;
+    width: 100%;
 }
+
+#wrapper{
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+	}
 
 .section-wrapper {
     padding-top: 70px;
@@ -41,7 +47,7 @@ html,body {
 }
 
 
-/* -----------Navigation---------*/
+/*-----------Navigation---------*/
 
 .nav-container {
     padding: 0;
@@ -89,7 +95,7 @@ background-color: rgba(0, 0, 0, 0.9);
 }
 
 
-/* -----------Hero Container---------*/
+/*-----------Hero Container---------*/
 .container-hero {
     height: 100vh;
     background: url("../images/hero1.jpg") no-repeat fixed; 
@@ -141,17 +147,15 @@ background-color: rgba(0, 0, 0, 0.9);
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     color: #fafafa;
-    
     font-weight: 500;
     font-size: 25px;
 }
 
-/********Buttons*********/
+/*-----------Buttons---------*/
 
 .hero-buttons {
     margin-left: 25px;
     margin-top: 25px;
-    
 }
 
 .hero-buttons a {
@@ -161,7 +165,6 @@ background-color: rgba(0, 0, 0, 0.9);
 .btn:focus {
     box-shadow: none;
 }
-
 
 .btn--mus {
     font-family: "Roboto", sans-serif;
@@ -184,62 +187,60 @@ background-color: rgba(0, 0, 0, 0.9);
     width: 200px;
 }
 
-/*Button-hover****/
-
 .hvr-underline-from-center-mus,
 .hvr-underline-from-center-white {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
 }
 .hvr-underline-from-center-mus:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 51%;
-  right: 51%;
-  bottom: 0;
-  background: #fafafa;
-  height: 4px;
-  -webkit-transition-property: left, right;
-  transition-property: left, right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #fafafa;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
 }
 
 .hvr-underline-from-center-white:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 51%;
-  right: 51%;
-  bottom: 0;
-  background: #FFDB58;
-  height: 4px;
-  -webkit-transition-property: left, right;
-  transition-property: left, right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #FFDB58;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
 }
 .hvr-underline-from-center-mus:hover:before, .hvr-underline-from-center-mus:focus:before, .hvr-underline-from-center-mus:active:before {
-  left: 0;
-  right: 0;
+    left: 0;
+    right: 0;
 }
 
 .hvr-underline-from-center-white:hover:before, .hvr-underline-from-center-white:focus:before, .hvr-underline-from-center-white:active:before {
-  left: 0;
-  right: 0;
+    left: 0;
+    right: 0;
 }
 
-/*****Scroll arrow*************/
+/*-----------Scroll arrow---------*/
 
 .scroll-down {
     position: absolute;
@@ -277,7 +278,7 @@ background-color: rgba(0, 0, 0, 0.9);
     }
 }
 
-/*****About Me******/
+/*-----------About me---------*/
 
 .about-container {
     height: 100%;
@@ -298,7 +299,8 @@ background-color: rgba(0, 0, 0, 0.9);
 }
 
 
-/*********My Projects****************/
+/*-----------My projects---------*/
+
 .section-wrapper-projects{
     background-color: #191919;
 }
@@ -416,8 +418,7 @@ background-color: rgba(0, 0, 0, 0.9);
     margin-top: 40px;
 }
 
-/************My Skills***************/
-
+/*-----------My skills---------*/
 
 .skill-heading {
     font-family: "Montserrat", sans-serif;
@@ -437,18 +438,18 @@ background-color: rgba(0, 0, 0, 0.9);
 }
 
 .hvr-grow {
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
 }
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .skill-text {
@@ -460,7 +461,8 @@ background-color: rgba(0, 0, 0, 0.9);
     margin-top: 40px;
 }
 
-/*********Contacts***********************/
+/*-----------Contacts---------*/
+
 .contacts-wrapper {
     background-color: #191919;
 }
@@ -468,7 +470,6 @@ background-color: rgba(0, 0, 0, 0.9);
 #contacts .section-header {
     color: #fafafa;
 }
-
 
 .contact-details {
     margin-top: 2.5rem;
@@ -521,7 +522,8 @@ background-color: rgba(0, 0, 0, 0.9);
     color:  #FFDB58;
 }
 
-/**********Footer***************/
+/*-----------Footer---------*/
+
 footer {
     margin: 0 auto;
     text-align: center;
@@ -571,7 +573,7 @@ footer .section-hr {
 }
 
 
-/*********Media queries*********/
+/*-----------Media Queries---------*/
 
 /*For small devices (such as mobile phones )*/ 
 @media screen and (max-width:600px) {
@@ -597,18 +599,18 @@ footer .section-hr {
     }
 
     .container-hero {
-    height: 100vh;
-    background: url("../images/hero1.jpg") no-repeat fixed; 
-    background-position: right;
-    background-size: cover;
-    -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
+        height: 100vh;
+        background: url("../images/hero1.jpg") no-repeat fixed; 
+        background-position: right;
+        background-size: cover;
+        -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
     }
 
     .content-details h3 {
@@ -626,7 +628,7 @@ footer .section-hr {
 
     .skill-heading i {
         font-size: 2.2rem;
-}
+    }
 
     .skill-text {
         margin-bottom: 1rem;
@@ -682,18 +684,18 @@ footer .section-hr {
     }
     
     .container-hero {
-    height: 100vh;
-    background: url("../images/hero1.jpg") no-repeat fixed; 
-    background-position: right;
-    background-size: cover;
-    -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
+        height: 100vh;
+        background: url("../images/hero1.jpg") no-repeat fixed; 
+        background-position: right;
+        background-size: cover;
+        -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
     }
 
     .content-details h3 {
@@ -706,8 +708,8 @@ footer .section-hr {
     }
 
     .skill-text {
-    margin-bottom: 1.2rem;
-    text-align: center;
+        margin-bottom: 1.2rem;
+        text-align: center;
     }
 
     .contact-details {
@@ -731,7 +733,7 @@ footer .section-hr {
 @media screen and (min-width:768px)  {
    .header {
        margin-right: 1rem;
-   }
+    }
     .main-heading {
         font-size: 3.8rem;
     }

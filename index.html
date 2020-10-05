@@ -1,278 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slava Balykov Portfolio</title>
-    <link rel="shortcut icon" href="assets/images/megaphone.png" type="image/png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body data-spy="scroll" data-target="#navigation" data-offset="10">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Slava Balykov Portfolio</title>
+        <link rel="shortcut icon" href="assets/images/megaphone.png" type="image/png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body
+        data-spy="scroll" data-target="#navigation" data-offset="10">
 
-<!--Navigation-->
+        <!-----------Navigation--------->
+        <div id="wrapper">
+        <header>
+            <div class="container-fluid nav-container">
+                <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="navigation">
+                    <a class="navbar-brand" href="#home">Slava
+                        <span class="brand-logo">Balykov</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-    <header>
-        <div class="container-fluid nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="navigation">
-                <a class="navbar-brand" href="#home">Slava <span class="brand-logo">Balykov</span></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto text-center">
+                            <li class="nav-item">
+                                <a class="nav-link " href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#about">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">My Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">My Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacts">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto text-center">
-                        <li class="nav-item">
-                            <a class="nav-link " href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#about">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">My Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">My Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacts">Contacts</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
+        <!-----------Hero section--------->
 
-<!--Hero section-->
-
-<section id="home" class="container-fluid container-hero">          
-  <div class="hero-overlay"></div>
-        <div class="row no-gutters">
-                        <div class="col-12">
-                            <div class="header">
-                                <div class="vert-line">
-                                    <h1 class="main-heading">
-                                    I'm Slava Balykov
-                                    </h1>
-                                    <p class="main-text" >Marketing and PR professional</p>  
-                                </div>
-                                <div class="hero-buttons">
-                                    <a href="#contacts">
-                                        <button type="button" class="btn btn--mus hvr-underline-from-center-mus">Hire Me</button>
-                                    </a>
-                                    <a href="assets/files/resume.pdf" target="_blank">
-                                        <button type="button" class="btn btn--white hvr-underline-from-center-white">Download my CV</button>
-                                    </a>
-                                </div>
-                            </div>
+        <section id="home" class="container-fluid container-hero">
+            <div class="hero-overlay"></div>
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="header">
+                        <div class="vert-line">
+                            <h1 class="main-heading">
+                                I'm Slava Balykov
+                            </h1>
+                            <p class="main-text">Marketing and PR professional</p>
                         </div>
-                     </div>    
-        <a href="#about" class="scroll-down">
-             <div class="arrow">
-                <span></span>
-            </div>
-        </a>               
-</section>
-
-<!---About section-->
-
-<div class="section-wrapper">
-    <section id="about">
-    <div class="container about-container">
-        <div class="row">
-        <div class="col-12">
-            <div class="about-img">
-                <img src="assets/images/about-img.jpg" class=" img-fluid rounded-circle mx-auto d-block" width="270" height="270" alt="profile-photo">
-            </div>
-            <div class="about-content">
-                <h2 class="section-header">About Me</h2>
-                <hr class="section-hr">
-                <p class="about-text">
-                Ambitious and highly skilled PR and Marketing professional with 9 years of extensive experience directing communication and marketing campaigns both agency and in-house settings. Proven success leading corporate marketing and internal communications for companies across diverse industries. 
-                Demonstrated success of developing and implementing media strategies and measuring results across traditional media and digital channels. 
-                </p>
-            </div>
-        </div>
-        </div>
-    </div>
-    </section>
-</div>
-
-<!---Projects section-->
-
-<div class="section-wrapper-projects section-wrapper">
-    <section id="projects">
-        <div class="projects-container">
-            <h2 class="section-header">My projects</h2>
-            <hr class="section-hr">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-12 project-block">         
-                    <div class="content"> 
-                     <div class="content-overlay"></div> 
-                        <img class="content-image" src="assets/images/csr.jpg">
-                        <div class="content-details fadeIn-bottom">
-                         <h3 class="content-title">Whopper 61</h3>
-                         <hr class="section-hr">
-                         <p class="content-text">
-                         Nationwide charity project “Whopper 61” was realized in collaboration with Red Cross, local influencers and media. Project was made with <span>minimum</span> costs and had a <span>great</span> outreach. 
-                        </p> 
-                     </div>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12 project-block">         
-                    <div class="content"> 
-                     <div class="content-overlay"></div> 
-                        <img class="content-image" src="assets/images/fhb-event.jpg" >
-                     <div class="content-details fadeIn-bottom">
-                         <h3 class="content-title">Bank merge</h3>
-                         <hr class="section-hr">
-                         <p class="content-text">Provided comprehensive communication support during merge and rebranding of the bank. As a result, information about the deal and rebranding has collected more than <span>300 publications</span>  in local and international media.
-                        </p> 
-                     </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-12 project-block">         
-                    <div class="content"> 
-                        <div class="content-overlay"></div> 
-                        <img class="content-image" src="assets/images/got-event.jpg">
-                     <div class="content-details fadeIn-bottom">
-                         <h3 class="content-title">Game of Thrones</h3>
-                         <hr class="section-hr">
-                         <p class="content-text">Organized Game of Thrones 1st episode preview in cooperation with FOX channel. More than <span>100 guests</span> attended the event, including popular bloggers, journalists, partners and clients.
-                        </p>
-                     </div>
-                  </div>
-                </div>
-            </div>
-        <div class="button-projects text-center">
-           <a href="https://drive.google.com/open?id=1BFMblRZcDi5sNkc-wHza_t3mf_z-mIvb" target="_blank">
-                <button type="button" class="btn btn--white hvr-underline-from-center-white">More projects</button>
-            </a> 
-        </div>
-           </div>
-    </section>
-</div>
-
-<!---Skills section-->
-
-<div class="section-wrapper">
-    <section id="skills">
-        <div class="skills-container container-fluid">
-            <h2 class="section-header">My skills</h2>
-            <hr class="section-hr">
-            <div class="row no-gutters">
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 px-4">
-                    <h3 class="skill-heading"><i class="fas fa-chess hvr-grow" aria-hidden="true"></i>Strategic <br> communications</h3>
-                    <p class="skill-text">Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 px-4">
-                    <h3 class="skill-heading"><i class="fas fa-chart-line hvr-grow" aria-hidden="true"></i>Event<br>management</h3>
-                    <p class="skill-text">During my career I have organized and provided 50+ media events for companies from different spheres of economy. And every event got, on average, 30 mentions in media and social media channels. 
-                    </p>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 px-4">
-                    <h3 class="skill-heading"><i class="fas fa-tasks hvr-grow" aria-hidden="true"></i>Project <br> management</h3>
-                    <p class="skill-text">Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 px-4">
-                    <h3 class="skill-heading"><i class="fas fa-user-ninja hvr-grow" aria-hidden="true"></i>Crisis <br> Communications</h3>
-                    <p class="skill-text">Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 px-4">
-                    <h3 class="skill-heading"><i class="fas fa-thumbs-up hvr-grow" aria-hidden="true"></i>Digital <br> marketing </h3>
-                    <p class="skill-text">Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 px-4">
-                    <h3 class="skill-heading"><i class="fas fa-paragraph hvr-grow" aria-hidden="true"></i>Content <br>development</h3>
-                    <p class="skill-text"> I have prepared a huge amount of information materials (press releases, announcements, articles, biographies, information notes, comments, speeches, etc.), including the creation and filling of Wikipedia pages.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-
-<div class="section-wrapper contacts-wrapper">
-    <section id="contacts">
-        <div class="contacts-container container">
-        <h2 class="section-header">Contacts</h2>
-        <hr class="section-hr">
-        <h4 class="form-subh">Have a project? Let's <span>discuss it!</span></h4>
-            <div class="row no-gutters">
-                <div class="col-lg-6 col-12">
-                    <div class="contact-details">
-                        <p class="details"><i class="fas fa-phone-alt fa-lg" aria-hidden="true"></i> <a href="tel:00353833270263"> +353 (83) 327 0263</a></p>
-                        
-                        <p class="details"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i> <a href="mailto:balykovpr@gmail.com" target="_blank"> balykovpr@gmail.com</a></p>
-                        
-                        <p class="details"><i class="fab fa-whatsapp fa-lg" aria-hidden="true"></i> <a href="https://wa.me/77015213484?text=Hi!%20I%20want%20to%20learn%20more%20about%20your%20projects" target="_blank"> WhatsApp me!</a></p>
-                        <div class="button-contacts">
+                        <div class="hero-buttons">
+                            <a href="#contacts">
+                                <button type="button" class="btn btn--mus hvr-underline-from-center-mus">Hire Me</button>
+                            </a>
                             <a href="assets/files/resume.pdf" target="_blank">
                                 <button type="button" class="btn btn--white hvr-underline-from-center-white">Download my CV</button>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-12">
-                
-                    <form>
-                        <div class="form-group">
-                            <label for="form-name">Name</label>
-                            <input type="text" class="form-control" id="form-name" placeholder="Harry Potter" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="form-email">Email address</label>
-                            <input type="email" class="form-control" id="form-email" placeholder="name@example.com" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="form-subject">Subject</label>
-                            <input type="text" class="form-control" id="form-subject" placeholder="I have a great project to discuss...">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Your message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Hi Slava..."></textarea>
-                        </div>
-                        <div class="form-button">
-                            <button type="submit" class="btn btn--mus hvr-underline-from-center-mus">
-                            Contact me
-                            </button>
-                        </div>
-                    </form>
-                </div>
             </div>
+            <a href="#about" class="scroll-down">
+                <div class="arrow">
+                    <span></span>
+                </div>
+            </a>
+        </section>
+
+        <!-----------About section--------->
+
+        <div class="section-wrapper">
+            <section id="about">
+                <div class="container about-container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="about-img">
+                                <img src="assets/images/about-img.jpg" class=" img-fluid rounded-circle mx-auto d-block" width="270" height="270" alt="profile-photo">
+                            </div>
+                            <div class="about-content">
+                                <h2 class="section-header">About Me</h2>
+                                <hr class="section-hr">
+                                <p class="about-text">
+                                    Ambitious and highly skilled PR and Marketing professional with 9 years of extensive experience directing communication and marketing campaigns both agency and in-house settings. Proven success leading corporate marketing and internal communications for companies across diverse industries. Demonstrated success of developing and implementing media strategies and measuring results across traditional media and digital channels.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-    </section>
-</div>
-    
-  <footer>
-    <hr class="section-hr">   
-    <div class="social-icon">
-        <a href="#">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-        </a>
-    </div>
-    <div class="social-icon">
-        <a href="#">
-        <i class="fa fa-instagram" aria-hidden="true"></i>
-        </a>
-    </div>
-    <div class="social-icon">
-        <a href="#">
-            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-        </a>
-    </div>
-    <p class="footer-text">Slava Balykov 2020</p>
-  </footer>  
-    
 
-    <script src="https://kit.fontawesome.com/a519d5e5c0.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
+        <!-----------Projects section--------->
 
-    
-</body>
+        <div class="section-wrapper-projects section-wrapper">
+            <section id="projects">
+                <div class="projects-container">
+                    <h2 class="section-header">My projects</h2>
+                    <hr class="section-hr">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12 project-block">
+                            <div class="content">
+                                <div class="content-overlay"></div>
+                                <img class="content-image" src="assets/images/csr.jpg">
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="content-title">Whopper 61</h3>
+                                    <hr class="section-hr">
+                                    <p class="content-text">
+                                        Nationwide charity project “Whopper 61” was realized in collaboration with Red Cross, local influencers and media. Project was made with
+                                        <span>minimum</span>
+                                        costs and had a
+                                        <span>great</span>
+                                        outreach.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 project-block">
+                            <div class="content">
+                                <div class="content-overlay"></div>
+                                <img class="content-image" src="assets/images/fhb-event.jpg">
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="content-title">Bank merge</h3>
+                                    <hr class="section-hr">
+                                    <p class="content-text">Provided comprehensive communication support during merge and rebranding of the bank. As a result, information about the deal and rebranding has collected more than
+                                        <span>300 publications</span>
+                                        in local and international media.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 project-block">
+                            <div class="content">
+                                <div class="content-overlay"></div>
+                                <img class="content-image" src="assets/images/got-event.jpg">
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="content-title">Game of Thrones</h3>
+                                    <hr class="section-hr">
+                                    <p class="content-text">Organized Game of Thrones 1st episode preview in cooperation with FOX channel. More than
+                                        <span>100 guests</span>
+                                        attended the event, including popular bloggers, journalists, partners and clients.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-projects text-center">
+                        <a href="https://drive.google.com/open?id=1BFMblRZcDi5sNkc-wHza_t3mf_z-mIvb" target="_blank">
+                            <button type="button" class="btn btn--white hvr-underline-from-center-white">More projects</button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-----------Skills section--------->
+
+        <div class="section-wrapper">
+            <section id="skills">
+                <div class="skills-container container-fluid">
+                    <h2 class="section-header">My skills</h2>
+                    <hr class="section-hr">
+                    <div class="row no-gutters">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 px-4">
+                            <h3 class="skill-heading">
+                                <i class="fas fa-chess hvr-grow" aria-hidden="true"></i>Strategic
+                                <br>
+                                communications</h3>
+                            <p class="skill-text">Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 px-4">
+                            <h3 class="skill-heading">
+                                <i class="fas fa-chart-line hvr-grow" aria-hidden="true"></i>Event<br>management</h3>
+                            <p class="skill-text">During my career I have organized and provided 50+ media events for companies from different spheres of economy. And every event got, on average, 30 mentions in media and social media channels.
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 px-4">
+                            <h3 class="skill-heading">
+                                <i class="fas fa-tasks hvr-grow" aria-hidden="true"></i>Project
+                                <br>
+                                management</h3>
+                            <p class="skill-text">Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 px-4">
+                            <h3 class="skill-heading">
+                                <i class="fas fa-user-ninja hvr-grow" aria-hidden="true"></i>Crisis
+                                <br>
+                                Communications</h3>
+                            <p class="skill-text">Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 px-4">
+                            <h3 class="skill-heading">
+                                <i class="fas fa-thumbs-up hvr-grow" aria-hidden="true"></i>Digital
+                                <br>marketing
+                            </h3>
+                            <p class="skill-text">Digital PR is a strategy used to increase awareness of your brand using online methods. In many ways, it’s similar to traditional PR, but it offers the opportunity to reach a much broader audience that can’t be reached with only offline methods.</p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 px-4">
+                            <h3 class="skill-heading">
+                                <i class="fas fa-paragraph hvr-grow" aria-hidden="true"></i>Content
+                                <br>development</h3>
+                            <p class="skill-text">
+                                I have prepared a huge amount of information materials (press releases, announcements, articles, biographies, information notes, comments, speeches, etc.), including the creation and filling of Wikipedia pages.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-----------Contacts section--------->
+
+        <div class="section-wrapper contacts-wrapper">
+            <section id="contacts">
+                <div class="contacts-container container">
+                    <h2 class="section-header">Contacts</h2>
+                    <hr class="section-hr">
+                    <h4 class="form-subh">Have a project? Let's
+                        <span>discuss it!</span>
+                    </h4>
+                    <div class="row no-gutters">
+                        <div class="col-lg-6 col-12">
+                            <div class="contact-details">
+                                <p class="details">
+                                    <i class="fas fa-phone-alt fa-lg" aria-hidden="true"></i>
+                                    <a href="tel:00353833270263">
+                                        +353 (83) 327 0263</a>
+                                </p>
+
+                                <p class="details">
+                                    <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
+                                    <a href="mailto:balykovpr@gmail.com" target="_blank">
+                                        balykovpr@gmail.com</a>
+                                </p>
+
+                                <p class="details">
+                                    <i class="fab fa-whatsapp fa-lg" aria-hidden="true"></i>
+                                    <a href="https://wa.me/77015213484?text=Hi!%20I%20want%20to%20learn%20more%20about%20your%20projects" target="_blank">
+                                        WhatsApp me!</a>
+                                </p>
+                                <div class="button-contacts">
+                                    <a href="assets/files/resume.pdf" target="_blank">
+                                        <button type="button" class="btn btn--white hvr-underline-from-center-white">Download my CV</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12">
+
+                            <form>
+                                <div class="form-group">
+                                    <label for="form-name">Name</label>
+                                    <input type="text" class="form-control" id="form-name" placeholder="Harry Potter" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-email">Email address</label>
+                                    <input type="email" class="form-control" id="form-email" placeholder="name@example.com" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-subject">Subject</label>
+                                    <input type="text" class="form-control" id="form-subject" placeholder="I have a great project to discuss...">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Your message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Hi Slava..."></textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button type="submit" class="btn btn--mus hvr-underline-from-center-mus">
+                                        Contact me
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-----------Footer--------->
+
+        <footer>
+            <hr class="section-hr">
+            <div class="social-icon">
+                <a href="#">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="social-icon">
+                <a href="#">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="social-icon">
+                <a href="#">
+                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                </a>
+            </div>
+            <p class="footer-text">Slava Balykov 2020</p>
+        </footer>
+        </div>
+
+        <script src="https://kit.fontawesome.com/a519d5e5c0.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
 </html>
