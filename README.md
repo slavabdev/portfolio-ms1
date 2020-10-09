@@ -24,8 +24,9 @@ https://developer.mozilla.org/
 browser icon
 https://www.flaticon.com/
 
-Bugs:
-Safari
-hero image doesn't display properly on iphone10
-no smooth scrolling
+smooth-scroll
+https://github.com/cferdinandi/smooth-scroll
+
+
+
 

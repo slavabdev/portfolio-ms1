@@ -9,10 +9,6 @@ body {
     position: relative;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 html,body {
     overflow-x: hidden;
 }
@@ -391,7 +387,7 @@ background-color: rgba(0, 0, 0, 0.9);
 
 .content-details p {
     color: #fafafa;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-align:center;
 }
 
@@ -587,10 +583,12 @@ footer .section-hr {
     .hero-buttons {
         margin-left: 25px;
     }
+
     .hero-buttons .btn--mus {
         display: block;
         margin-bottom: 15px;
     }
+
     .hero-buttons .btn--white {
         display: block;
     }
@@ -675,7 +673,11 @@ footer .section-hr {
     }
 
     .content-details h3 {
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .content-details p {
+        font-size: 1.2rem;
     }
 
     .content-image {
@@ -721,6 +723,14 @@ footer .section-hr {
         width: 100%;
         height: auto;
     }
+    .content-details h3 {
+        font-size: 1.6rem;
+    }
+
+    .content-details p {
+        font-size: .8rem;
+    }
+
     .contact-details {
         margin-top: 1rem;
         margin-bottom: 2rem;
@@ -750,4 +760,3 @@ footer .section-hr {
     .form-button {
         text-align: left;
 }
-
