@@ -190,7 +190,7 @@ Click the [link](https://docs.github.com/en/free-pro-team@latest/github/creating
 ### Media
 - All Images were created by the developer.
 ### README
-- Code institute README.
+-Code institute README.
 ### Acknowledgements
 - Friends and family for helpful feedback.
 - My Mentor Oluwafemi Medale for support and useful feedback.
