@@ -73,60 +73,61 @@ The website features are:
 - **Footer**
   - Footer includes social media icons with *hover effect* and active and valid links to the particular pages. Also there is a copyright text below the icons.
 ## Technologies used
-Languages Used
-•	HTML5
-•	CSS3
-Frameworks, Libraries & Programs Used
+- **Languages Used**
+  - HTML5
+  - CSS3
+- **Frameworks, Libraries & Programs Used**
 1.	Bootstrap 4.5.2:
-o	Bootstrap was used to assist with the responsiveness and styling of the website.
+  - Bootstrap was used to assist with the responsiveness and styling of the website.
 2.	Hover.css:
-o	Hover.css was used following areas:
-•	on the buttons on the whole website (add underline transition while being hovered over); 
-•	on the icons in the skills section (add grow transition while being hovered over);
-Google Fonts:
-o	Google fonts were used to import the “Open Sans” and “Montserrat” fonts into the style.css file which are used on the website
+  - Hover.css was used following areas:
+    - on the buttons on the whole website (add underline transition while being hovered over); 
+    - on the icons in the skills section (add grow transition while being hovered over);
+- Google Fonts:
+  - Google fonts were used to import the “Open Sans” and “Montserrat” fonts into the style.css file which are used on the website
 3.	Font Awesome:
-o	Font Awesome was used to add icons to the skills and footer section on the website.
+  - Font Awesome was used to add icons to the skills and footer section on the website.
 4.	Flat Icon:
-o	Flat icon was used as a source for browser icon.
+  - Flat icon was used as a source for browser icon.
 5.	jQuery:
-o	jQuery came with Bootstrap to make the navigation bar responsive.
+  - jQuery came with Bootstrap to make the navigation bar responsive.
 6.	Git
-o	Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 7.	GitHub:
-o	GitHub is used to store the projects code after being pushed from Git. 
-8.	 jsDelivr:
-o	jsDelivr was also used for the smooth scroll in JavaScript. 
+  - GitHub is used to store the projects code after being pushed from Git. 
+8.	jsDelivr:
+  - jsDelivr was also used for the smooth scroll in JavaScript. 
 9.	Corel draw:
-o	Corel draw was used to resize images and editing photos for the website.
+  - Corel draw was used to resize images and editing photos for the website.
 10.	Balsamiq:
-o	Balsamiq was used to create the wireframes.
+  - Balsamiq was used to create the wireframes.
 11.	GitPod:
-o	GitPod was used as an IDE to develop a project. A project was built on a gitpod template of the Code institute.
+  - GitPod was used as an IDE to develop a project. A project was built on a gitpod template of the Code institute.
 
-TESTING
+### Testing
 The W3C Markup Validator and W3C CSS Validator Services were used in the project to ensure there were no syntax errors.
-•	W3C Markup Validator  
-•	W3C CSS Validator  
-Testing User Stories from User Experience (UX) Section
-o	As a new visitor, I want to understand whom this website belongs to and what its purpose; 
-•	Upon entering the website user sees a hero image with name and profession of the owner. There are also two clear call-to-action buttons below the text.
-o	As a new visitor, I want to easily navigate the site to get a content what I need; 
-•	The website has a clear, responsive and fixed navigation bar, which allow to user navigate the site sections easily.
-•	Every navigation bar item is highlighted depending on the section where user is in (during scrolling it happens automatically).
-o	As a new visitor, I want to see a website, which works properly on my device;
-•	Website is made fully responsive, so it’s convenient to browse on a desktop, tablet and mobile devices. 
-o	As a new visitor, I want to see a fully-filled website with up-to-date information;
-•	All information, including description, contact details and internal/external files are relevant and up-to-date.
-o	As an interested visitor, I want to find more details about professional skills and projects he has implemented;
+ - W3C Markup Validator  
+ - W3C CSS Validator  
+
+- **Testing User Stories from User Experience (UX) Section**
+  - As a **new visitor**, I want to understand whom this website belongs to and what its purpose; 
+    - Upon entering the website user sees a hero image with name and profession of the owner. There are also two clear call-to-action buttons below the text.
+ - As a **new visitor**, I want to easily navigate the site to get a content what I need; 
+    - The website has a clear, responsive and fixed navigation bar, which allow to user navigate the site sections easily.
+    - Every navigation bar item is highlighted depending on the section where user is in (during scrolling it happens automatically).
+  - As a **new visitor**, I want to see a website, which works properly on my device;
+    - Website is made fully responsive, so it’s convenient to browse on a desktop, tablet and mobile devices. 
+ - As a **new visitor**, I want to see a fully-filled website with up-to-date information;
+    - All information, including description, contact details and internal/external files are relevant and up-to-date.
+o	As an **interested visitor**, I want to find more details about professional skills and projects he has implemented;
 •	The relevant sections have a prominent headline and are easily accessible through the navigation bar. 
 •	The project section has a button, which lead user to external file with detailed portfolio.
-o	As an interested visitor, I want to be able to download the professional’s CV and take a look at his social media pages, especially Linked in;
+o	As an **interested visitor**, I want to be able to download the professional’s CV and take a look at his social media pages, especially Linked in;
 •	For the user’s convenience, there are two buttons which allow him to download a CV. One located at the top of the website (hero-image section) and the second on the bottom (contact section).
 •	The relevant links to social media accounts are located in the footer section (right below the contacts section).    
-o	As an interested visitor, I want to easily find out how to contact with professional for further discussion;
+o	As an **interested visitor**, I want to easily find out how to contact with professional for further discussion;
 •	User can easily get to Contacts section either through the navigation bar, or the “Hire me” button from the hero image section.   
-o	As an interested visitor, I want to be able contact professional directly. (without a necessity to fill any forms); 
+o	As an **interested visitor**, I want to be able contact professional directly. (without a necessity to fill any forms); 
 •	There are several ways to contact the professional. User may do it by filling a contact form as well as by phone, email or WhatsApp. 
 Further testing
 o	The website was tested on the following browsers:
