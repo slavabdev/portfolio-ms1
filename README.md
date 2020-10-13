@@ -179,21 +179,20 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 Click the [link](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for getting more information about “*clone*” option
 ## Credits
-Code
-•	Code for the smooth scrolling (JS) was taken from Chris Ferdinandi GitHub account.
-•	Code for hiding a mobile menu after clicking on a link (JS) was taken from Kirill Dubov GitHub account.
-•	Code snippet for my projects was taken and revised from bbbootstrap.com
-•	Bootstrap4: Bootstrap Library mainly used to make responsive website.
-•	MDN Web Docs : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found Here
-•	Css-tricks, W3school,  MDN Web Docs and Stack overflow: These resources were used to find coding hints and solutions. 
-Content
-•	All content was written by the developer.
-Media
-•	All Images were created by the developer.
-README
-•	Code institute README
-Acknowledgements
-•	My Mentor Oluwafemi Medale for support and useful feedback.
-•	Friends and family for helpful feedback.
-•	Code Institute for teaching me how to make coding magic.
+### Code
+- Code for the smooth scrolling (JS) was taken from  [Chris Ferdinandi GitHub page.](https://github.com/cferdinandi/smooth-scroll)
+- Code for hiding a mobile menu after clicking on a link (JS) [Kirill Dubov GitHub page.](https://gist.github.com/KirillUnited/d71fd542c3d1c59ad00fee4f50a49c1f/revisions)
+- Code snippet for my projects *hover effect* was taken and revised from [bbbootstrap.com.](https://bbbootstrap.com/snippets/simple-image-overlay-hover-effect-38877551)
+- [Bootstrap 4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library mainly used to  make responsive website.
+- [Css-tricks](https://css-tricks.com/), [W3school](https://www.w3schools.com/), [MDN Web Docs](https://developer.mozilla.org/) and [Stack overflow](https://stackoverflow.com/): These resources were used to find coding hints and solutions. 
+### Content
+- All content was written by the developer.
+### Media
+- All Images were created by the developer.
+### README
+- Code institute README.
+### Acknowledgements
+- Friends and family for helpful feedback.
+- My Mentor Oluwafemi Medale for support and useful feedback.
+- Code Institute for teaching me how to make coding magic.
 
