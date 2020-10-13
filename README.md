@@ -16,61 +16,63 @@ This is the professional portfolio website of **Slava Balykov** – Marketing an
  
 ### Website business goals
 * Build a personal brand awareness among the CA representatives;
-* Inform CA about skills and projects were made and increase a willing to hire a professional;
+* Inform CA about skills and projects were made and increase a  willing to hire a professional;
 * Create an opportunity to contact the professional by any convenient way;
 
 ## UX
 ### User stories:
-- As a new visitor, I want to understand whom this website belongs to and what its purpose; 
-- As a new visitor, I want to easily navigate the site to get a content what I need; 
-- As a new visitor, I want to see a website, which works properly on my device;
-- As a new visitor, I want to see a fully-filled website with up-to-date information;
-- As an interested visitor, I want to find more details about professional skills and projects he has implemented;
-o	As an interested visitor, I want to be able to download the professional’s CV and take a look at his social media pages, especially Linked in;
-o	As an interested visitor, I want to easily find out how to contact with professional for further discussion;
-o	As an interested visitor, I want to be able contact professional directly. (without a necessity to fill any forms); 
+- As a **new visitor**, I want to understand whom this website belongs to and what its purpose; 
+- As a **new visitor**, I want to easily navigate the site to get a content what I need; 
+- As a **new visitor**, I want to see a website, which works properly on my device;
+- As a **new visitor**, I want to see a fully-filled website with up-to-date information;
+- As an **interested visitor**, I want to find more details about professional skills and projects he has implemented;
+- As an **interested visitor**r, I want to be able to download the professional’s CV and take a look at his social media pages, especially Linked in;
+- As an **interested visitor**, I want to easily find out how to contact with professional for further discussion;
+- As an **interested visitor**, I want to be able contact professional directly. (without a necessity to fill any forms); 
 ### Design
-Color scheme
-There are three main colours being used in this project: white, black (for the font and background colour), because they look familiar to the common user eye; and mustard yellow – to emphasize some elements which should catch a user’s attention).
-Typography
-There are two main fonts used in the website Montserrat and Open Sans – popular, convenient and frequently used in web –design.
--	The Montserrat font (with Sans Serif in case of fallback) is predominately used for navigation bar, contact details and all the headings on the website. 
-o	The Open Sans font (with Sans Serif in case of fallback) used for buttons text and the main text of the sections. 
-•	WIREFRAMES
-o	Website wireframe 
-FEATURES
+- Color Scheme:
+  - There are three main colours being used in this project: white, black (for the font and background colour), because they look familiar to the common user eye; and mustard yellow to emphasize some elements which should catch a user’s attention).
+- Typorgaphy:
+  - There are two main fonts used in the website Montserrat and Open Sans – popular, convenient and frequently used in web design.
+  - The Montserrat font (with Sans Serif in case of fallback) is predominately used for navigation bar, contact details and all the headings on the website. 
+  - The Open Sans font (with Sans Serif in case of fallback) used for buttons text and the main text of the sections. 
+### Wireframe
+  - [View the website wireframe.](https://drive.google.com/drive/folders/1_wuuNgRNOyNAMoXgnUK5rviBZKJ7O-2J?usp=sharing)  
+### Features
 The website features are:
-Navigation bar
-Website has responsive a navigation bar with a logo placing on the top-left and menu items on the top-right. When browsing the website from mobile devices, menu item list becoming a toggle-button with drop-down list. After clicking on a link menu is hiding automatically. 
-For user’s convenience, navigation bar has a fixed position. 
-Sections summary
-For user’s comfortable navigation, every section has a large heading and block divider between the header and text.   
-Hero (home) section
-Hero section is illustrated by a full-screen image with transparent dark overlay.  On desktop devices hero-image has a fixed position, which allows creating a parallax effect.  For mobile devices hero-image is seen static, to avoid mobile cross-browser displaying problems. 
-The main header and text are placed over the hero-image.  Also there are two buttons located below the text – Hire me (leads to the Contacts section) and Download my CV (leads to a new page with CV pdf file).
-A flashing yellow arrow on the bottom of the section invites user to proceed to the further section.
-About section
-An about me section is made to be concisely and responsive.  There is a rounded photo on the top and a short introduction text below the picture.
+- **Navigation bar**
+  - Website has responsive a navigation bar with a logo placing on the top-left and menu items on the top-right. When browsing the website from mobile devices, menu item list becoming a toggle-button with drop-down list. After clicking on a link menu is hiding automatically. 
+  - For user’s convenience, navigation bar has a fixed position. 
+- **Sections summary**
+  - Website consist of 5 sections: [Home](https://slavabdev.github.io/portfolio-ms1/#home), [About me](https://slavabdev.github.io/portfolio-ms1/#about), [My Projects](https://slavabdev.github.io/portfolio-ms1/#projects), [My skills](https://slavabdev.github.io/portfolio-ms1/#skills) and [Contacts](https://slavabdev.github.io/portfolio-ms1/#contacts)
+  - For user’s comfortable navigation, every section has a large heading and block divider between the header and text.   
+- **Hero (home) section**
+  - Hero section is illustrated by a full-screen image with transparent dark overlay. On desktop devices hero-image has a fixed position, which allows creating a parallax effect. For mobile devices hero-image is seen static, to avoid mobile cross-browser displaying problems. 
+  - The main header and text are placed over the hero-image.  Also there are two buttons located below the text – Hire me (leads to the Contacts section) and Download my CV (leads to a new page with CV pdf-file).
+  - A flashing yellow arrow on the bottom of the section invites user to proceed to the further section.
+- **About section**
+  - An about me section is made to be concisely and responsive.  There is a rounded photo on the top and a short introduction text below the picture.
 
-My projects section
-One of the most important sections on the site is «My projects»
-The Projects section is laid out in 3 columns wide for desktop screen, 2 columns wide for tablets and 1 column wide for mobile devices. 
-Except for the heading elements, it includes a description of three projects and a button on the bottom of the section. Every block featured by a particular project photo, heading and a short description. 
-The image hover effect is used to display projects. This means that the desktop user will see only images when navigating the section. Heading and description appear when he hovers a cursor over the project. For the mobile devices, this effect works similar, but the user has to tap on the project to see the information.
-The “More projects” button on the bottom of the section opens in a new page and leads to the external portfolio pdf-file.  
-My skills section
-As a projects section, the skills section is responsive as well and laid out in 3 columns wide for desktop screen, 2 columns wide for tablets and 1 column wide for mobile devices.
-This section features 6 skills blocks. Every skill block consists of icon (with hover grow effect), heading and description.   
-Contacts section 
+- **My projects section**
+  - One of the most important sections on the site is «My projects»
+  - The Projects section is laid out in 3 columns wide for desktop screen, 2 columns wide for tablets and 1 column wide for mobile devices. 
+  - Except for the heading elements, it includes a description of three projects and a button on the bottom of the section.
+  - Every block featured by a particular project photo, heading and a short description. 
+  - The *image hover effect* is used to display projects. This means that the desktop user will see only images when navigating the section. Heading and description appear when he hovers a cursor over the project. For the mobile devices, this effect works similar, but the user has to tap on the project to see the information.
+  - The “More projects” button on the bottom of the section opens in a new page and leads to the external portfolio pdf-file.  
+- **My skills section**
+  - As a projects section, the skills section is responsive as well and laid out in 3 columns wide for desktop screen, 2 columns wide for tablets and 1 column wide for mobile devices.
+  - This section features 6 skills blocks. Every skill block consists of icon (with hover grow effect), heading and description.   
+- **Contacts section** 
 The Contacts section consists of two main blocks: 
 •	Contacts block.
 It includes a “download my cv” button and three ways of direct communication - phone, email and whatsapp. All contact methods imply an active and valid link. 
 •	Contact form. 
-For users who feel more familiar with contact form, such opportunity has been added. Contact form features 4 fields (with two required fields) and “contact me” button.
-For user’s convenience, section is laid out in 2 columns wide for desktop screen, 1 column wide for tablets and mobile devices. 
-Footer
-Footer includes social media icons with hover effect and active and valid links to the particular pages. Also there is a copyright text below the icons.
-TECHNOLOGIES USED
+  - For users who used to use contact forms, such opportunity has been added. Contact form features 4 fields (with two required fields) and “contact me” button.
+  - For user’s convenience, section is laid out in 2 columns wide for desktop screen, 1 column wide for tablets and mobile devices. 
+- **Footer**
+  - Footer includes social media icons with *hover effect* and active and valid links to the particular pages. Also there is a copyright text below the icons.
+## Technologies used
 Languages Used
 •	HTML5
 •	CSS3
