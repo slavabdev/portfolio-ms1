@@ -72,6 +72,11 @@ The website features are:
             - For user’s convenience, section is laid out in 2 columns wide for desktop screen, 1 column wide for tablets and mobile devices. 
 - **Footer**
   - Footer includes social media icons with *hover effect* and active and valid links to the particular pages. Also there is a copyright text below the icons.
+### Things to implement in future
+- Add a blog section to the website.
+- Update the "*contact form*".
+- Create separate pages for the core projects from portfolio.
+
 ## Technologies used
 - **Languages Used:**
   - [HTML5](https://en.wikipedia.org/wiki/HTML5)
