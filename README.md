@@ -48,7 +48,7 @@ The website features are:
   - For user’s comfortable navigation, every section has a large heading and block divider between the header and text.   
 - **Hero (home) section**
   - Hero section is illustrated by a full-screen image with transparent dark overlay. On desktop devices hero-image has a fixed position, which allows creating a parallax effect. For mobile devices hero-image is seen static, to avoid mobile cross-browser displaying problems. 
-  - The main header and text are placed over the hero-image.  Also there are two buttons located below the text – Hire me (leads to the Contacts section) and Download my CV (leads to a new page with CV pdf-file).
+  - The main header and text are placed over the hero-image.  Also there are two buttons located below the text – "*Hire me*" (leads to the Contacts section) and "*Download my CV*" (leads to a new page with CV pdf-file).
   - A flashing yellow arrow on the bottom of the section invites user to proceed to the further section.
 - **About section**
   - An about me section is made to be concisely and responsive.  There is a rounded photo on the top and a short introduction text below the picture.
@@ -59,17 +59,17 @@ The website features are:
   - Except for the heading elements, it includes a description of three projects and a button on the bottom of the section.
   - Every block featured by a particular project photo, heading and a short description. 
   - The *image hover effect* is used to display projects. This means that the desktop user will see only images when navigating the section. Heading and description appear when he hovers a cursor over the project. For the mobile devices, this effect works similar, but the user has to tap on the project to see the information.
-  - The “More projects” button on the bottom of the section opens in a new page and leads to the external portfolio pdf-file.  
+  - The “*More projects*” button on the bottom of the section opens in a new page and leads to the external portfolio pdf-file.  
 - **My skills section**
   - As a projects section, the skills section is responsive as well and laid out in 3 columns wide for desktop screen, 2 columns wide for tablets and 1 column wide for mobile devices.
   - This section features 6 skills blocks. Every skill block consists of icon (with hover grow effect), heading and description.   
 - **Contacts section** 
-The Contacts section consists of two main blocks: 
-•	Contacts block.
-It includes a “download my cv” button and three ways of direct communication - phone, email and whatsapp. All contact methods imply an active and valid link. 
-•	Contact form. 
-  - For users who used to use contact forms, such opportunity has been added. Contact form features 4 fields (with two required fields) and “contact me” button.
-  - For user’s convenience, section is laid out in 2 columns wide for desktop screen, 1 column wide for tablets and mobile devices. 
+ - The Contacts section consists of two main blocks: 
+ - Contacts block.
+    - It includes a “download my cv” button and three ways of direct communication - phone, email and whatsapp. All contact methods imply an active and valid link. 
+ - Contact form. 
+     - For users who used to use contact forms, such opportunity has been added. Contact form features 4 fields (with two required fields) and “*Contact me*” button.
+     - For user’s convenience, section is laid out in 2 columns wide for desktop screen, 1 column wide for tablets and mobile devices. 
 - **Footer**
   - Footer includes social media icons with *hover effect* and active and valid links to the particular pages. Also there is a copyright text below the icons.
 ## Technologies used
