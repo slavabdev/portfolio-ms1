@@ -64,52 +64,52 @@ The website features are:
   - As a projects section, the skills section is responsive as well and laid out in 3 columns wide for desktop screen, 2 columns wide for tablets and 1 column wide for mobile devices.
   - This section features 6 skills blocks. Every skill block consists of icon (with hover grow effect), heading and description.   
 - **Contacts section** 
- - The Contacts section consists of two main blocks: 
- - Contacts block.
-    - It includes a “download my cv” button and three ways of direct communication - phone, email and whatsapp. All contact methods imply an active and valid link. 
- - Contact form. 
-     - For users who used to use contact forms, such opportunity has been added. Contact form features 4 fields (with two required fields) and “*Contact me*” button.
-     - For user’s convenience, section is laid out in 2 columns wide for desktop screen, 1 column wide for tablets and mobile devices. 
+    - The Contacts section consists of two main blocks: 
+        - Contacts block.
+            - It includes a “download my cv” button and three ways of direct communication - phone, email and whatsapp. All contact methods imply an active and valid link. 
+        - Contact form. 
+            - For users who used to use contact forms, such opportunity has been added. Contact form features 4 fields (with two required fields) and “*Contact me*” button.
+            - For user’s convenience, section is laid out in 2 columns wide for desktop screen, 1 column wide for tablets and mobile devices. 
 - **Footer**
   - Footer includes social media icons with *hover effect* and active and valid links to the particular pages. Also there is a copyright text below the icons.
 ## Technologies used
-- **Languages Used**
+- **Languages Used:**
   - [HTML5](https://en.wikipedia.org/wiki/HTML5)
   - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-- **Frameworks, Libraries & Programs Used**
+- **Frameworks, Libraries & Programs Used:**
 1.	[Bootstrap 4.5.2](https://getbootstrap.com/docs/4.4/getting-started/introduction/):
-  - Bootstrap was used to assist with the responsiveness and styling of the website.
+     - Bootstrap was used to assist with the responsiveness and styling of the website.
 2.	[Hover.css](https://ianlunn.github.io/Hover/):
-  - Hover.css was used following areas:
-    - on the buttons on the whole website (add underline transition while being hovered over); 
-    - on the icons in the skills section (add grow transition while being hovered over);
+    - Hover.css was used following areas:
+        - on the buttons on the whole website (add underline transition while being hovered over); 
+        - on the icons in the skills section (add grow transition while being hovered over);
 3.  [Google Fonts](https://fonts.google.com/):
-  - Google fonts were used to import the “Open Sans” and “Montserrat” fonts into the style.css file which are used on the website
+    - Google fonts were used to import the “Open Sans” and “Montserrat” fonts into the style.css file which are used on the website
 4.	[Font Awesome](https://fontawesome.com/): 
-  - Font Awesome was used to add icons to the skills and footer section on the website.
+     - Font Awesome was used to add icons to the skills and footer section on the website.
 5.	[Flat Icon](https://www.flaticon.com/):
-  - Flat icon was used as a source for browser icon.
+    - Flat icon was used as a source for browser icon.
 6.	[jQuery](https://jquery.com/):
-  - jQuery came with Bootstrap to make the navigation bar responsive.
+    - jQuery came with Bootstrap to make the navigation bar responsive.
 7.	[Git](https://git-scm.com/):
-  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 8.	[GitHub](https://github.com/):
-  - GitHub is used to store the projects code after being pushed from Git. 
+    - GitHub is used to store the projects code after being pushed from Git. 
 9.	[jsDelivr](https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/):
-  - jsDelivr was also used for the smooth scroll in JavaScript. 
+    - jsDelivr was also used for the smooth scroll in JavaScript. 
 9.	[Corel draw](https://www.coreldraw.com/):
-  - Corel draw was used to resize images and editing photos for the website.
+     - Corel draw was used to resize images and editing photos for the website.
 10.	[Balsamiq](https://balsamiq.com/):
-  - Balsamiq was used to create the wireframe.
+    - Balsamiq was used to create the wireframe.
 11.	[GitPod](https://gitpod.io/):
-  - GitPod was used as an IDE to develop a project. A project was built on a gitpod template of the Code institute.
+    - GitPod was used as an IDE to develop a project. A project was built on a gitpod template of the Code institute.
 
 ### Testing
 The W3C Markup Validator and W3C CSS Validator Services were used in the project to ensure there were no syntax errors.
- - [W3C Markup Validator](https://validator.w3.org/nu/)
- - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
+* [W3C Markup Validator](https://validator.w3.org/nu/)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
 
-- **Testing User Stories from User Experience (UX) Section**
+**Testing User Stories from User Experience (UX) Section**
   - As a **new visitor**, I want to understand whom this website belongs to and what its purpose; 
     - Upon entering the website user sees a hero image with name and profession of the owner. There are also two clear call-to-action buttons below the text.
  - As a **new visitor**, I want to easily navigate the site to get a content what I need; 
@@ -144,37 +144,41 @@ The W3C Markup Validator and W3C CSS Validator Services were used in the project
 ## Deployment
 This project was developed using the GitPod, committed to Git and pushed to GitHub.
 ### GitHub Pages
-- To deploy the project to GitHub Pages the following steps were taken:
-    1.	Log in to GitHub and go to the slavabdev GitHub Repository
-    2.	From the list if existing repositories select the slavabdev/portfolio-ms1
-    3.	At the top-right side of the Repository section, click on «Settings" Button.
-    4.	Scroll down to the "GitHub Pages" section.
-    5.	Under "Source", click the dropdown menu and change it from "None" to «Master Branch".
-    6.	The page will be automatically refreshed.
-    7.	Scroll back down to the "GitHub Pages" and retrieve a link of a published site.
+To deploy the project to GitHub Pages the following steps were taken:
+1.	Log in to GitHub and go to the [slavabdev](https://github.com/slavabdev?tab=repositories) GitHub Repository
+2.	From the list if existing repositories select the **slavabdev/portfolio-ms1**
+3.	At the top-right side of the Repository section, click on "Settings" Button.
+4.	Scroll down to the "GitHub Pages" section.
+5.	Under "Source", click the dropdown menu and change it from "None" to «Master Branch".
+6.	The page will be automatically refreshed.
+7.	Scroll back down to the "GitHub Pages" and retrieve a link of a published site.
 ### Forking the GitHub Repository
 A forking the GitHub Repository is used for copying of the original depository to  GitHub account. It allows viewing or making changes in the project without affecting the original repository. It can be done using the following steps: 
 1.	Log in to GitHub and go to the GitHub Repository
 2.	At the top-right of the page, just below the GitHub navigation bar, the "Fork" Button is located.
 3.	Click the “Fork” button and get a copy of the original repository to a GitHub account 
-Run project locally
+### Run project locally
 1.	Log in to GitHub and locate the GitHub Repository
 2.	Click a “Code” dropdown button, which located just under the “Settings”
 3.	To clone the repository using HTTPS, copy the link with clone URL.
 4.	Open Git Bash in your local IDE
 5.	Change the current working directory to the location where you want the cloned directory to be made.
 6.	Type git clone, and then paste the URL you copied before.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```console
+git clone https://github.com/USERNAME/REPOSITORY
+```
 7.	Press Enter. Your local clone will be created.
+```console
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Cloning into `Spoon-Knife`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
+```
 
-Click the link for getting more information about “clone” option
-Credits
+Click the [link](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for getting more information about “*clone*” option
+## Credits
 Code
 •	Code for the smooth scrolling (JS) was taken from Chris Ferdinandi GitHub account.
 •	Code for hiding a mobile menu after clicking on a link (JS) was taken from Kirill Dubov GitHub account.
