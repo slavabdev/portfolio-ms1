@@ -74,40 +74,40 @@ The website features are:
   - Footer includes social media icons with *hover effect* and active and valid links to the particular pages. Also there is a copyright text below the icons.
 ## Technologies used
 - **Languages Used**
-  - HTML5
-  - CSS3
+  - [HTML5](https://en.wikipedia.org/wiki/HTML5)
+  - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - **Frameworks, Libraries & Programs Used**
-1.	Bootstrap 4.5.2:
+1.	[Bootstrap 4.5.2](https://getbootstrap.com/docs/4.4/getting-started/introduction/):
   - Bootstrap was used to assist with the responsiveness and styling of the website.
-2.	Hover.css:
+2.	[Hover.css](https://ianlunn.github.io/Hover/):
   - Hover.css was used following areas:
     - on the buttons on the whole website (add underline transition while being hovered over); 
     - on the icons in the skills section (add grow transition while being hovered over);
-- Google Fonts:
+3.  [Google Fonts](https://fonts.google.com/):
   - Google fonts were used to import the “Open Sans” and “Montserrat” fonts into the style.css file which are used on the website
-3.	Font Awesome:
+4.	[Font Awesome](https://fontawesome.com/): 
   - Font Awesome was used to add icons to the skills and footer section on the website.
-4.	Flat Icon:
+5.	[Flat Icon](https://www.flaticon.com/):
   - Flat icon was used as a source for browser icon.
-5.	jQuery:
+6.	[jQuery](https://jquery.com/):
   - jQuery came with Bootstrap to make the navigation bar responsive.
-6.	Git
+7.	[Git](https://git-scm.com/):
   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-7.	GitHub:
+8.	[GitHub](https://github.com/):
   - GitHub is used to store the projects code after being pushed from Git. 
-8.	jsDelivr:
+9.	[jsDelivr](https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/):
   - jsDelivr was also used for the smooth scroll in JavaScript. 
-9.	Corel draw:
+9.	[Corel draw](https://www.coreldraw.com/):
   - Corel draw was used to resize images and editing photos for the website.
-10.	Balsamiq:
-  - Balsamiq was used to create the wireframes.
-11.	GitPod:
+10.	[Balsamiq](https://balsamiq.com/):
+  - Balsamiq was used to create the wireframe.
+11.	[GitPod](https://gitpod.io/):
   - GitPod was used as an IDE to develop a project. A project was built on a gitpod template of the Code institute.
 
 ### Testing
 The W3C Markup Validator and W3C CSS Validator Services were used in the project to ensure there were no syntax errors.
- - W3C Markup Validator  
- - W3C CSS Validator  
+ - [W3C Markup Validator](https://validator.w3.org/nu/)
+ - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
 
 - **Testing User Stories from User Experience (UX) Section**
   - As a **new visitor**, I want to understand whom this website belongs to and what its purpose; 
@@ -119,40 +119,40 @@ The W3C Markup Validator and W3C CSS Validator Services were used in the project
     - Website is made fully responsive, so it’s convenient to browse on a desktop, tablet and mobile devices. 
  - As a **new visitor**, I want to see a fully-filled website with up-to-date information;
     - All information, including description, contact details and internal/external files are relevant and up-to-date.
-o	As an **interested visitor**, I want to find more details about professional skills and projects he has implemented;
-•	The relevant sections have a prominent headline and are easily accessible through the navigation bar. 
-•	The project section has a button, which lead user to external file with detailed portfolio.
-o	As an **interested visitor**, I want to be able to download the professional’s CV and take a look at his social media pages, especially Linked in;
-•	For the user’s convenience, there are two buttons which allow him to download a CV. One located at the top of the website (hero-image section) and the second on the bottom (contact section).
-•	The relevant links to social media accounts are located in the footer section (right below the contacts section).    
-o	As an **interested visitor**, I want to easily find out how to contact with professional for further discussion;
-•	User can easily get to Contacts section either through the navigation bar, or the “Hire me” button from the hero image section.   
-o	As an **interested visitor**, I want to be able contact professional directly. (without a necessity to fill any forms); 
-•	There are several ways to contact the professional. User may do it by filling a contact form as well as by phone, email or WhatsApp. 
-Further testing
-o	The website was tested on the following browsers:
-•	Google Chrome;
-•	Opera;
-•	Mozilla Firefox; 
-•	Microsoft Edge; 
-•	Safari.
-o	The website was viewed on such devices as desktops, laptops, tablet (Samsung galaxy tab A), and mobile (IPhone X, IPhone XS Max, Huawei P10, IPhone11, Samsung Galaxy S10).
-o	All buttons and links have been tested several times to make sure they work correctly.
-o	Friends and family members reviewed the website from their devices to make sure that website is displaying well and all functions are working properly. 
-Known Bugs
-•	At the current moment, submit function doesn’t work as it should. When clicking on “Contact me” button in the Contact form, a local post client will be launched.  
-DEPLOYMENT
+- As an **interested visitor**, I want to find more details about professional skills and projects he has implemented;
+    - The relevant sections have a prominent headline and are easily accessible through the navigation bar. 
+    - The project section has a button, which lead user to external file with detailed portfolio.
+- As an **interested visitor**, I want to be able to download the professional’s CV and take a look at his social media pages, especially Linked in;
+    - For the user’s convenience, there are two buttons which allow him to download a CV. One located at the top of the website (hero-image section) and the second on the bottom (contact section).
+    - The relevant links to social media accounts are located in the footer section (right below the contacts section).    
+- As an **interested visitor**, I want to easily find out how to contact with professional for further discussion;
+    - User can easily get to Contacts section either through the navigation bar, or the “Hire me” button from the hero image section.   
+- As an **interested visitor**, I want to be able contact professional directly. (without a necessity to fill any forms); 
+    - There are several ways to contact the professional. User may do it by filling a contact form as well as by phone, email or WhatsApp. 
+### Further testing
+- The website was tested on the following browsers:
+    * Google Chrome;
+    * Opera;
+    * Mozilla Firefox; 
+    * Microsoft Edge; 
+    * Safari.
+- The website was viewed on such devices as desktops, laptops, tablet (Samsung galaxy tab A), and mobile (IPhone X, IPhone XS Max, Huawei P10, IPhone11, Samsung Galaxy S10).
+- All buttons and links have been tested several times to make sure they work correctly.
+- Friends and family members reviewed the website from their devices to make sure that website is displaying well and all functions are working properly. 
+### Known Bugs
+- At the current moment, submit function doesn’t work as it should. When clicking on “Contact me” button in the Contact form, a local post client will be launched.  
+## Deployment
 This project was developed using the GitPod, committed to Git and pushed to GitHub.
-GitHub Pages
-To deploy the project to GitHub Pages the following steps were taken:
-1.	Log in to GitHub and go to the slavabdev GitHub Repository
-2.	From the list if existing repositories select the slavabdev/portfolio-ms1
-3.	At the top-right side of the Repository section, click on «Settings" Button.
-4.	Scroll down to the "GitHub Pages" section.
-5.	Under "Source", click the dropdown menu and change it from "None" to «Master Branch".
-6.	The page will be automatically refreshed.
-7.	Scroll back down to the "GitHub Pages" and retrieve a link of a published site.
-Forking the GitHub Repository
+### GitHub Pages
+- To deploy the project to GitHub Pages the following steps were taken:
+    1.	Log in to GitHub and go to the slavabdev GitHub Repository
+    2.	From the list if existing repositories select the slavabdev/portfolio-ms1
+    3.	At the top-right side of the Repository section, click on «Settings" Button.
+    4.	Scroll down to the "GitHub Pages" section.
+    5.	Under "Source", click the dropdown menu and change it from "None" to «Master Branch".
+    6.	The page will be automatically refreshed.
+    7.	Scroll back down to the "GitHub Pages" and retrieve a link of a published site.
+### Forking the GitHub Repository
 A forking the GitHub Repository is used for copying of the original depository to  GitHub account. It allows viewing or making changes in the project without affecting the original repository. It can be done using the following steps: 
 1.	Log in to GitHub and go to the GitHub Repository
 2.	At the top-right of the page, just below the GitHub navigation bar, the "Fork" Button is located.
